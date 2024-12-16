@@ -2,7 +2,7 @@
 
 import cx_Oracle
 
-connection = cx_Oracle.connect("loader_user", "loader_password", "localhost/xepdb1")
+connection = cx_Oracle.connect("loader_user", "loader_password", "localhost/xepdb1") #modifier avec les bonnes informations de connexion
 cursor = connection.cursor()
 
 # Récupérer les nouvelles sorties de films
